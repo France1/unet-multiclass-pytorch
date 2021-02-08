@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+
+# Mac/OSX
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Model checkpoints
+checkpoints/
+*.pth
+
+# Tensorboard summaries
+runs/
+events.*

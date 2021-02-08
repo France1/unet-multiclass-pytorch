@@ -1,0 +1,7 @@
+pytorch
+jupyterlab
+natsort
+opencv-python
+scikit-image
+tensorboardX
+tb-nightly

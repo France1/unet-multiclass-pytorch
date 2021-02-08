@@ -1,0 +1,30 @@
+{
+    "models_settings":{
+        "resize_width": 256,
+        "equalize": "True",
+        "patch_width": 96,
+        "patch_height": 96,
+        "label_to_value": {
+            "_background_": 0, 
+            "line": 1, 
+            "ellipse": 2
+        },
+        "train_dir": "../data/images_train",
+        "test_dir": "../data/images_test",
+        "image_folder": "images",
+        "mask_folder": "masks"
+    },
+    "shape_segmentation": {
+        "patches_s96": {
+            "path": "checkpoints/patches_s96_b8/CP76.pth",
+            "n_channels": 3,
+            "n_classes": 3,
+            "patch_height": 96, 
+            "patch_width": 96,
+            "stride_vertical": 48,
+            "stride_horizontal": 48,
+            "description": "unet model trained on size 96 patches"
+        }
+    }
+}
+
